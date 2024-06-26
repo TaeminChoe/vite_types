@@ -1,10 +1,13 @@
+import React from "react";
 import Counter from "./Counter";
+import Router from "./route/Router";
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <Counter />
-    </div>
+      <Router />
+    </React.Fragment>
   );
 }
 

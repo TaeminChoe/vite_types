@@ -39,7 +39,7 @@ vite + typescript
 - 주석을 잘 사용할 것.
 - jsdoc등을 활용해보자
 - storybook도 좋긴한데, 활용할 컴포넌트가 없어서 기초세팅밖에 안될듯
-- 테스트 코드 작성
+- 테스트 코드 작성 (jest)
 - 웹앱 기반
 - css를 활용할 라이브러리도 확인을 좀 해보자
 - 페이지 화면들에 관련 내용 설명과 코드가 가독성있게 배치되면 좋을 것 같음.
@@ -51,6 +51,8 @@ vite + typescript
 
 ## 권한별 라우팅 세팅
 
+- 권한 : user, admin
+
 ## 공통 팝업
 
 ## 로딩과 네트워크 통신 (suspense)
@@ -61,4 +63,4 @@ vite + typescript
 
 기술 스택
 
-vite, typescript, react,
+vite, typescript, react, ts-jest
